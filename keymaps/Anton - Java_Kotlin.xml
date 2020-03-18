@@ -23,7 +23,11 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="GotoNextError" />
+  <action id="JumpToLastWindow" />
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
