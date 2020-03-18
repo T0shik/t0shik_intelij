@@ -1,0 +1,22 @@
+<application>
+  <component name="GraziConfig">
+    <option name="enabledLanguages">
+      <set>
+        <option value="English (US)" />
+        <option value="Russian" />
+      </set>
+    </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="METRIC_UNITS_EN_US" />
+      </set>
+    </option>
+    <option name="userEnabledRules">
+      <set>
+        <option value="PASSIVE_VOICE" />
+        <option value="strong_m" />
+      </set>
+    </option>
+    <option name="lastSeenVersion" value="2019.3-6.2.stable" />
+  </component>
+</application>
