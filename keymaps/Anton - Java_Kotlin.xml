@@ -8,11 +8,22 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="AddToFavoritesPopup" />
+  <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ClassNameCompletion" />
+  <action id="Debugger.EditArrayFilter" />
+  <action id="Debugger.EditCustomField" />
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="GotoNextError" />
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
@@ -24,6 +35,15 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="RenameFile">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
   <action id="SplitHorizontally">
@@ -33,8 +53,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />
+  <action id="XDebugger.SetValue" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
