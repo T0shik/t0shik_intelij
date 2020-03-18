@@ -1,8 +1,18 @@
 <keymap version="1" name="Anton - Java/Kotlin" parent="$default">
+  <action id="ActivateFavoritesToolWindow" />
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 2" />
+  </action>
+  <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="ClassNameCompletion" />
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
@@ -11,11 +21,24 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="alt period" />
   </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="ctrl alt space" />
+  </action>
+  <action id="UpdateRunningApplication" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
 </keymap>
