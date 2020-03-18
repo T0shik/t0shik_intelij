@@ -1,0 +1,6 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="CopyElement" />
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
+</keymap>
