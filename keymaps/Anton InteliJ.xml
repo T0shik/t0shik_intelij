@@ -31,12 +31,16 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt page_down" />
   </action>
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
+  <action id="JumpToLastWindow" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
