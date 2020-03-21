@@ -24,7 +24,11 @@
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="BuildSolutionAction">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
   <action id="ChangesView.Rename" />
+  <action id="ChangesView.ShelveSilently" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ClassNameCompletion" />
   <action id="Debugger.EditArrayFilter" />
@@ -54,6 +58,7 @@
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="MethodHierarchy" />
   <action id="MethodUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
@@ -66,6 +71,12 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="alt period" />
   </action>
+  <action id="ReSharperGotoNextErrorInSolution">
+    <keyboard-shortcut first-keystroke="shift alt page_down" />
+  </action>
+  <action id="ReSharperGotoPrevErrorInSolution">
+    <keyboard-shortcut first-keystroke="shift alt page_up" />
+  </action>
   <action id="RebuildGradleProject">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
@@ -74,6 +85,9 @@
   </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="ShelvedChanges.Rename" />
   <action id="ShowContent" />
