@@ -42,8 +42,11 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
-  <action id="GotoImplementation">
+  <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="shift f12" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt page_down" />
@@ -89,6 +92,7 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="RestoreDefaultLayout" />
   <action id="ShelvedChanges.Rename" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
