@@ -115,6 +115,9 @@
   <action id="ShelvedChanges.Rename" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
+  <action id="Stop">
+    <keyboard-shortcut first-keystroke="shift f5" />
+  </action>
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
