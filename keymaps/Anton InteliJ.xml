@@ -31,6 +31,7 @@
   <action id="ChangesView.ShelveSilently" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ClassNameCompletion" />
+  <action id="ContextHelp" />
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Editor Redo">
@@ -93,6 +94,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="RestoreDefaultLayout" />
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
   <action id="ShelvedChanges.Rename" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
