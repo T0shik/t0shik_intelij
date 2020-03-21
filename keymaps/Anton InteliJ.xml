@@ -99,6 +99,10 @@
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="UpdateRunningApplication" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
