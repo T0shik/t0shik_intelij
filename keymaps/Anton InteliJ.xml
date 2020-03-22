@@ -94,10 +94,14 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl h" />
+  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="RestoreDefaultLayout" />
+  <action id="RiderTypeHierarchy.BaseOnThisType" />
   <action id="RiderUnitTestDotMemoryUnitSolutionAction" />
   <action id="RiderUnitTestRunSolutionAction">
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="a" />
@@ -125,6 +129,8 @@
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.EditWatch" />
