@@ -88,6 +88,9 @@
   <action id="RebuildGradleProject">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
