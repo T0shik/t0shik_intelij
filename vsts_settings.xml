@@ -1,25 +1,7 @@
 <application>
   <component name="VSTSSettings">
     <option name="serverContexts">
-      <array>
-        <ServerContextState>
-          <option name="type" value="VSO" />
-          <option name="uri" value="https://antonwieslander.visualstudio.com/HealthCheckers/_git/LenodeTest" />
-          <option name="serverUri" value="https://antonwieslander.visualstudio.com" />
-          <option name="userId" value="7d8ecc31-1e43-4aab-b996-2620cc46b02c" />
-          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;94c5119a-579f-4895-84f9-96182b3c69ee&quot;,&quot;name&quot;:&quot;antonwieslander&quot;,&quot;url&quot;:&quot;https://antonwieslander.visualstudio.com/_apis/projectCollections/94c5119a-579f-4895-84f9-96182b3c69ee&quot;}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;3a25d523-1503-4a20-bd56-6154692cc393&quot;,&quot;name&quot;:&quot;HealthCheckers&quot;,&quot;revision&quot;:78,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://antonwieslander.visualstudio.com/_apis/projects/3a25d523-1503-4a20-bd56-6154692cc393&quot;}" />
-          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;b41b5bcf-63cb-4201-a726-c1afabf0dbb5&quot;,&quot;name&quot;:&quot;LenodeTest&quot;,&quot;remoteUrl&quot;:&quot;https://antonwieslander.visualstudio.com/HealthCheckers/_git/LenodeTest&quot;,&quot;url&quot;:&quot;https://antonwieslander.visualstudio.com/3a25d523-1503-4a20-bd56-6154692cc393/_apis/git/repositories/b41b5bcf-63cb-4201-a726-c1afabf0dbb5&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;3a25d523-1503-4a20-bd56-6154692cc393&quot;,&quot;name&quot;:&quot;HealthCheckers&quot;,&quot;revision&quot;:78,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://antonwieslander.visualstudio.com/_apis/projects/3a25d523-1503-4a20-bd56-6154692cc393&quot;}}" />
-        </ServerContextState>
-        <ServerContextState>
-          <option name="type" value="VSO" />
-          <option name="uri" value="https://antonwieslander.visualstudio.com" />
-          <option name="serverUri" value="https://antonwieslander.visualstudio.com" />
-          <option name="userId" value="7d8ecc31-1e43-4aab-b996-2620cc46b02c" />
-          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;94c5119a-579f-4895-84f9-96182b3c69ee&quot;,&quot;name&quot;:&quot;antonwieslander&quot;,&quot;url&quot;:&quot;https://antonwieslander.visualstudio.com/_apis/projectCollections/94c5119a-579f-4895-84f9-96182b3c69ee&quot;}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;3a25d523-1503-4a20-bd56-6154692cc393&quot;,&quot;name&quot;:&quot;HealthCheckers&quot;,&quot;revision&quot;:78,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://antonwieslander.visualstudio.com/_apis/projects/3a25d523-1503-4a20-bd56-6154692cc393&quot;}" />
-        </ServerContextState>
-      </array>
+      <array />
     </option>
     <option name="properties">
       <array>
