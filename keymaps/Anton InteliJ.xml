@@ -29,11 +29,16 @@
   </action>
   <action id="ChangesView.Rename" />
   <action id="ChangesView.ShelveSilently" />
+  <action id="ChooseDebugConfiguration" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="ChooseRunConfiguration" />
   <action id="ClassNameCompletion" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="shift alt f5" />
+  </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
   <action id="Editor Redo">
@@ -62,6 +67,7 @@
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
+  <action id="Jdbc.RunSqlScript" />
   <action id="JumpToLastWindow" />
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
@@ -103,6 +109,9 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="shift ctrl f5" />
+  </action>
   <action id="RestoreDefaultLayout" />
   <action id="RiderTypeHierarchy.BaseOnThisType" />
   <action id="RiderUnitTestDotMemoryUnitSolutionAction" />
@@ -113,9 +122,8 @@
   <action id="Run">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="shift ctrl f5" />
-  </action>
+  <action id="RunClass" />
+  <action id="RunDashboard.Run" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
