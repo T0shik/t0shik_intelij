@@ -33,9 +33,11 @@
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ChooseRunConfiguration" />
   <action id="ClassNameCompletion" />
+  <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="DatabaseView.CopyTable" />
+  <action id="DatabaseView.Refresh" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="shift alt f5" />
   </action>
@@ -48,9 +50,17 @@
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
   <action id="ForceRefresh" />
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="ForceStepOver">
+    <keyboard-shortcut first-keystroke="shift f10" />
+  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="Github.PullRequest.Details.Reload" />
+  <action id="Github.PullRequest.Timeline.Update" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
@@ -85,10 +95,6 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="alt period" />
   </action>
-  <action id="OpenFile">
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
-  <action id="ProjectRefreshAction" />
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift alt page_down" />
   </action>
@@ -105,6 +111,7 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift alt f" />
   </action>
+  <action id="Refresh" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -118,6 +125,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl f5" />
   </action>
   <action id="RestoreDefaultLayout" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f5" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
@@ -128,16 +138,28 @@
   </action>
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
   <action id="Run">
-    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
-  <action id="RunClass" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
   <action id="RunDashboard.Run" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ShelvedChanges.Rename" />
+  <action id="ShowBookmarks" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
+  <action id="SmartStepInto">
+    <keyboard-shortcut first-keystroke="ctrl f11" />
+  </action>
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
@@ -145,12 +167,14 @@
     <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
   <action id="ToggleBookmark" />
-  <action id="ToggleFullScreen">
-    <keyboard-shortcut first-keystroke="f11" />
+  <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="f9" />
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
+  <action id="Vcs.Log.Refresh" />
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
