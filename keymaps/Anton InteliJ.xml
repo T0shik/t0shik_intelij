@@ -49,6 +49,7 @@
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
+  <action id="EditorScrollToCenter" />
   <action id="ForceRefresh" />
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="shift f11" />
@@ -144,6 +145,7 @@
     <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
   <action id="RunDashboard.Run" />
+  <action id="ScrollTreeToCenter" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
@@ -168,8 +170,17 @@
   </action>
   <action id="ToggleBookmark" />
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="d" />
+  </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="f" />
+  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="p" />
   </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" />
@@ -178,6 +189,9 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.ShowMessageHistory">
+    <keyboard-shortcut first-keystroke="ctrl e" />
+  </action>
   <action id="Vcs.UpdateProject" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
