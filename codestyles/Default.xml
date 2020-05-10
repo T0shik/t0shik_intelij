@@ -1,1 +1,5 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <ClojureCodeStyleSettings>{
+  :compojure.core/defroutes 1
+}</ClojureCodeStyleSettings>
+</code_scheme>
