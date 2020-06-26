@@ -13,5 +13,6 @@
       </KeymapDescription>
     </option>
     <option name="margin" value="10" />
+    <option name="showActionDescriptions" value="false" />
   </component>
 </application>
