@@ -1,13 +1,31 @@
 <application>
   <component name="VSTSSettings">
     <option name="serverContexts">
-      <array />
+      <array>
+        <ServerContextState>
+          <option name="type" value="VSO_DEPLOYMENT" />
+          <option name="uri" value="https://app.vssps.visualstudio.com" />
+          <option name="serverUri" value="https://app.vssps.visualstudio.com" />
+          <option name="userId" value="3aa06429-5114-47e1-9852-9c96a0ac8cdd" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://crisp-thinking.visualstudio.com/Collection/_git/Origami" />
+          <option name="serverUri" value="https://crisp-thinking.visualstudio.com" />
+          <option name="userId" value="0cf8cbe3-d407-6156-989c-f8683c71792c" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;,&quot;name&quot;:&quot;crisp-thinking&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projectCollections/a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;f235e952-4204-41b3-9a19-843efa177142&quot;,&quot;name&quot;:&quot;Collection&quot;,&quot;revision&quot;:392,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/f235e952-4204-41b3-9a19-843efa177142&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;3abbbb2a-174b-43d6-abfc-8d20e06df33a&quot;,&quot;name&quot;:&quot;Origami&quot;,&quot;remoteUrl&quot;:&quot;https://crisp-thinking.visualstudio.com/Collection/_git/Origami&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/git/repositories/3abbbb2a-174b-43d6-abfc-8d20e06df33a&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;f235e952-4204-41b3-9a19-843efa177142&quot;,&quot;name&quot;:&quot;Collection&quot;,&quot;revision&quot;:392,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/f235e952-4204-41b3-9a19-843efa177142&quot;}}" />
+        </ServerContextState>
+      </array>
     </option>
     <option name="properties">
       <array>
         <PropertyState>
           <option name="name" value="lastContextKey" />
-          <option name="value" value="//crisp-thinking.visualstudio.com/collection/_git/tiktokrequestsigner" />
+          <option name="value" value="//crisp-thinking.visualstudio.com/collection/_git/origami" />
         </PropertyState>
       </array>
     </option>
