@@ -12,14 +12,6 @@
           <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;33701900-f491-472a-a386-f2c48021be8e&quot;,&quot;name&quot;:&quot;WarpEngine&quot;,&quot;remoteUrl&quot;:&quot;https://crisp-thinking.visualstudio.com/Services/_git/WarpEngine&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/git/repositories/33701900-f491-472a-a386-f2c48021be8e&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Services and Components of the Live Infrastructure.&quot;,&quot;id&quot;:&quot;fb41122f-20f7-4bc3-a149-8c4247c4eae5&quot;,&quot;name&quot;:&quot;Services&quot;,&quot;revision&quot;:486,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/fb41122f-20f7-4bc3-a149-8c4247c4eae5&quot;}}" />
         </ServerContextState>
         <ServerContextState>
-          <option name="type" value="VSO_DEPLOYMENT" />
-          <option name="uri" value="https://app.vssps.visualstudio.com" />
-          <option name="serverUri" value="https://app.vssps.visualstudio.com" />
-          <option name="userId" value="3aa06429-5114-47e1-9852-9c96a0ac8cdd" />
-          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
-        </ServerContextState>
-        <ServerContextState>
           <option name="type" value="VSO" />
           <option name="uri" value="https://crisp-thinking.visualstudio.com/Collection/_git/Origami" />
           <option name="serverUri" value="https://crisp-thinking.visualstudio.com" />
