@@ -3,6 +3,7 @@
     <option name="confirmExit" value="false" />
     <option name="defaultProjectDirectory" value="C:\WS\_Crisp" />
     <option name="processCloseConfirmation" value="TERMINATE" />
+    <option name="reopenLastProject" value="false" />
     <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="Registry">
