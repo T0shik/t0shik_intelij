@@ -1,7 +1,26 @@
 <application>
   <component name="VSTSSettings">
     <option name="serverContexts">
-      <array />
+      <array>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://crisp-thinking.visualstudio.com/Services/_git/WarpEngine" />
+          <option name="serverUri" value="https://crisp-thinking.visualstudio.com" />
+          <option name="userId" value="0cf8cbe3-d407-6156-989c-f8683c71792c" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;,&quot;name&quot;:&quot;crisp-thinking&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projectCollections/a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Services and Components of the Live Infrastructure.&quot;,&quot;id&quot;:&quot;fb41122f-20f7-4bc3-a149-8c4247c4eae5&quot;,&quot;name&quot;:&quot;Services&quot;,&quot;revision&quot;:486,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/fb41122f-20f7-4bc3-a149-8c4247c4eae5&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;33701900-f491-472a-a386-f2c48021be8e&quot;,&quot;name&quot;:&quot;WarpEngine&quot;,&quot;remoteUrl&quot;:&quot;https://crisp-thinking.visualstudio.com/Services/_git/WarpEngine&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/git/repositories/33701900-f491-472a-a386-f2c48021be8e&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;Services and Components of the Live Infrastructure.&quot;,&quot;id&quot;:&quot;fb41122f-20f7-4bc3-a149-8c4247c4eae5&quot;,&quot;name&quot;:&quot;Services&quot;,&quot;revision&quot;:486,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/fb41122f-20f7-4bc3-a149-8c4247c4eae5&quot;}}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://crisp-thinking.visualstudio.com/Collection/_git/Origami" />
+          <option name="serverUri" value="https://crisp-thinking.visualstudio.com" />
+          <option name="userId" value="0cf8cbe3-d407-6156-989c-f8683c71792c" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;,&quot;name&quot;:&quot;crisp-thinking&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projectCollections/a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;f235e952-4204-41b3-9a19-843efa177142&quot;,&quot;name&quot;:&quot;Collection&quot;,&quot;revision&quot;:392,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/f235e952-4204-41b3-9a19-843efa177142&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;3abbbb2a-174b-43d6-abfc-8d20e06df33a&quot;,&quot;name&quot;:&quot;Origami&quot;,&quot;remoteUrl&quot;:&quot;https://crisp-thinking.visualstudio.com/Collection/_git/Origami&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/git/repositories/3abbbb2a-174b-43d6-abfc-8d20e06df33a&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;f235e952-4204-41b3-9a19-843efa177142&quot;,&quot;name&quot;:&quot;Collection&quot;,&quot;revision&quot;:392,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/f235e952-4204-41b3-9a19-843efa177142&quot;}}" />
+        </ServerContextState>
+      </array>
     </option>
     <option name="properties">
       <array>
