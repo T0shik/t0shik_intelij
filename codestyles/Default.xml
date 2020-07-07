@@ -1,1 +1,8 @@
-<code_scheme name="Default" version="173" />
+<code_scheme name="Default" version="173">
+  <ClojureCodeStyleSettings>{
+  :compojure.core/defroutes 1
+}</ClojureCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_KEEP_LINE_BREAKS" value="false" />
+  </HTMLCodeStyleSettings>
+</code_scheme>

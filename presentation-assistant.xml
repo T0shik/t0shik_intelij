@@ -1,0 +1,17 @@
+<application>
+  <component name="PresentationAssistant">
+    <option name="alternativeKeymap">
+      <KeymapDescription>
+        <option name="displayText" value="Anton's Keymap" />
+        <option name="name" value="Anton InteliJ" />
+      </KeymapDescription>
+    </option>
+    <option name="mainKeymap">
+      <KeymapDescription>
+        <option name="displayText" value="Rider" />
+        <option name="name" value="Rider" />
+      </KeymapDescription>
+    </option>
+    <option name="margin" value="10" />
+  </component>
+</application>

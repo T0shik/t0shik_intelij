@@ -1,13 +1,17 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
-    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="SHOW_METHOD_SEPARATORS" value="true" />
   </component>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="14" />
+    <option name="FONT_SIZE" value="20" />
   </component>
   <component name="EditorSettings">
-    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+    <option name="SHOW_BREADCRUMBS" value="false" />
+    <option name="IS_WHITESPACES_SHOWN" value="true" />
+    <option name="IS_INDENT_GUIDES_SHOWN" value="false" />
   </component>
   <component name="JSEditorOptions">
     <option name="ESCAPE_PASTED_TEXT" value="false" />
@@ -25,6 +29,11 @@
     <option name="aliasQualification" value="Always" />
     <option name="namespaceQualification" value="Always" />
     <option name="tableQualification" value="Always" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\bNotImplementedException\b" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
   </component>
   <component name="YamlEditorOptions">
     <option name="useSmartPaste" value="false" />
