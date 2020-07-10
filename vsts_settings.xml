@@ -1,13 +1,23 @@
 <application>
   <component name="VSTSSettings">
     <option name="serverContexts">
-      <array />
+      <array>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://crisp-thinking.visualstudio.com/Scrapers/_git/Scrapy.Common" />
+          <option name="serverUri" value="https://crisp-thinking.visualstudio.com" />
+          <option name="userId" value="0cf8cbe3-d407-6156-989c-f8683c71792c" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;,&quot;name&quot;:&quot;crisp-thinking&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projectCollections/a6a455f2-80f4-4ded-ae35-a8f06314b15f&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;5bea3edb-45d5-4226-800c-17a82ded4328&quot;,&quot;name&quot;:&quot;Scrapers&quot;,&quot;revision&quot;:484,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/5bea3edb-45d5-4226-800c-17a82ded4328&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;c747bdbb-e9fd-4a4b-a28a-2ae01b63cfb9&quot;,&quot;name&quot;:&quot;Scrapy.Common&quot;,&quot;remoteUrl&quot;:&quot;https://crisp-thinking.visualstudio.com/Scrapers/_git/Scrapy.Common&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/git/repositories/c747bdbb-e9fd-4a4b-a28a-2ae01b63cfb9&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;5bea3edb-45d5-4226-800c-17a82ded4328&quot;,&quot;name&quot;:&quot;Scrapers&quot;,&quot;revision&quot;:484,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://crisp-thinking.visualstudio.com/_apis/projects/5bea3edb-45d5-4226-800c-17a82ded4328&quot;}}" />
+        </ServerContextState>
+      </array>
     </option>
     <option name="properties">
       <array>
         <PropertyState>
           <option name="name" value="lastContextKey" />
-          <option name="value" value="//crisp-thinking.visualstudio.com/services/_git/warpengine" />
+          <option name="value" value="//crisp-thinking.visualstudio.com/scrapers/_git/scrapy.common" />
         </PropertyState>
       </array>
     </option>
