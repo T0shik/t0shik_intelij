@@ -52,6 +52,9 @@
     <keyboard-shortcut first-keystroke="shift delete" />
   </action>
   <action id="EditorScrollToCenter" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="u" />
+  </action>
   <action id="ForceRefresh" />
   <action id="ForceStepInto">
     <keyboard-shortcut first-keystroke="shift f11" />
@@ -83,7 +86,7 @@
   <action id="Jdbc.RunSqlScript" />
   <action id="JumpToLastWindow" />
   <action id="LocateInSolutionView">
-    <keyboard-shortcut first-keystroke="alt l" />
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="s" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
