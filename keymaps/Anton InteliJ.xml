@@ -82,6 +82,9 @@
   <action id="Graph.ApplyCurrentLayout" />
   <action id="Jdbc.RunSqlScript" />
   <action id="JumpToLastWindow" />
+  <action id="LocateInSolutionView">
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="s" />
+  </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
