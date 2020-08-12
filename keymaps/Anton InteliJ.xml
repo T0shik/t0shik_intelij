@@ -93,9 +93,17 @@
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="alt w" second-keystroke="a" />
+  </action>
+  <action id="HideSideWindows">
+    <keyboard-shortcut first-keystroke="alt w" second-keystroke="s" />
+  </action>
   <action id="Images.EditExternally" />
   <action id="Jdbc.RunSqlScript" />
-  <action id="JumpToLastWindow" />
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="w" />
+  </action>
   <action id="LocateInSolutionView">
     <keyboard-shortcut first-keystroke="alt l" second-keystroke="s" />
   </action>
@@ -163,6 +171,9 @@
     <keyboard-shortcut first-keystroke="shift alt u" />
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="t" />
   </action>
+  <action id="RiderUnitTestRepeatPreviousRunTwAction">
+    <keyboard-shortcut first-keystroke="shift r" />
+  </action>
   <action id="RiderUnitTestRunContextAction">
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="r" />
   </action>
@@ -176,7 +187,13 @@
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl a" />
   </action>
+  <action id="RiderUnitTestSessionAbortTwAction">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
+  <action id="RiderUnitTestSessionRerunFailedTestsTwAction">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
