@@ -20,6 +20,12 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
+  <action id="ActivateUnitTestsCoverageToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl c" />
+  </action>
+  <action id="ActivateUnitTestsToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl t" />
+  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Edit" />
@@ -34,6 +40,9 @@
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ChooseRunConfiguration" />
   <action id="ClassNameCompletion" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="ctrl alt f4" />
+  </action>
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
@@ -72,6 +81,7 @@
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="shift f12" />
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="i" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt page_down" />
@@ -83,8 +93,17 @@
     <mouse-shortcut keystroke="shift control button1" />
   </action>
   <action id="Graph.ApplyCurrentLayout" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="alt w" second-keystroke="a" />
+  </action>
+  <action id="HideSideWindows">
+    <keyboard-shortcut first-keystroke="alt w" second-keystroke="s" />
+  </action>
+  <action id="Images.EditExternally" />
   <action id="Jdbc.RunSqlScript" />
-  <action id="JumpToLastWindow" />
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="w" />
+  </action>
   <action id="LocateInSolutionView">
     <keyboard-shortcut first-keystroke="alt l" second-keystroke="s" />
   </action>
@@ -144,11 +163,37 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="RiderTypeHierarchy.BaseOnThisType" />
+  <action id="RiderUnitTestDebugContextAction">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="d" />
+  </action>
   <action id="RiderUnitTestDotMemoryUnitSolutionAction" />
+  <action id="RiderUnitTestQuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift alt u" />
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="t" />
+  </action>
+  <action id="RiderUnitTestRepeatPreviousRunTwAction">
+    <keyboard-shortcut first-keystroke="shift r" />
+  </action>
+  <action id="RiderUnitTestRunContextAction">
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="r" />
+  </action>
+  <action id="RiderUnitTestRunContextTwAction">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="RiderUnitTestRunCurrentSessionTwAction">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
   <action id="RiderUnitTestRunSolutionAction">
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl a" />
+  </action>
+  <action id="RiderUnitTestSessionAbortTwAction">
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="RiderUnitTestSessionRerunFailedTestsAction" />
+  <action id="RiderUnitTestSessionRerunFailedTestsTwAction">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
@@ -156,6 +201,9 @@
     <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
   <action id="RunDashboard.Run" />
+  <action id="Runner.CloseOtherViews">
+    <keyboard-shortcut first-keystroke="ctrl alt f4" />
+  </action>
   <action id="ScrollTreeToCenter" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="f1" />
