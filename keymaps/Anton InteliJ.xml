@@ -26,6 +26,9 @@
   <action id="ActivateUnitTestsToolWindow">
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl t" />
   </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="m" />
+  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Edit" />
@@ -36,6 +39,9 @@
   </action>
   <action id="ChangesView.Rename" />
   <action id="ChangesView.ShelveSilently" />
+  <action id="CheckinProject">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="c" />
+  </action>
   <action id="ChooseDebugConfiguration" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ChooseRunConfiguration" />
@@ -70,6 +76,9 @@
   </action>
   <action id="ForceStepOver">
     <keyboard-shortcut first-keystroke="shift f10" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="b" />
   </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -248,6 +257,10 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="p" />
+  </action>
+  <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
