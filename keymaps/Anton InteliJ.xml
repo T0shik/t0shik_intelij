@@ -46,8 +46,11 @@
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ChooseRunConfiguration" />
   <action id="ClassNameCompletion" />
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="alt w" second-keystroke="w" />
+  </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="ctrl alt f4" />
+    <keyboard-shortcut first-keystroke="alt w" second-keystroke="o" />
   </action>
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
