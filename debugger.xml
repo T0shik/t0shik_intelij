@@ -3,14 +3,9 @@
     <data-views />
     <general />
     <debuggers>
-      <debugger id="dotnet_debugger">
+      <debugger id="kotlin_debugger">
         <configuration>
-          <option name="needNotifyWhenStoppedInExternalCode" value="false" />
-        </configuration>
-      </debugger>
-      <debugger id="javascript">
-        <configuration>
-          <custom-object-presentation />
+          <option name="filterForStdlibAlreadyAdded" value="true" />
         </configuration>
       </debugger>
     </debuggers>
