@@ -40,7 +40,13 @@
   <action id="BuildSolutionAction">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
+  <action id="ChangesView.AddUnversioned">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="a" />
+  </action>
   <action id="ChangesView.Rename" />
+  <action id="ChangesView.Revert">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="ChangesView.ShelveSilently" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="c" />
@@ -85,6 +91,9 @@
   </action>
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="b" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="down" />
   </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
@@ -264,9 +273,12 @@
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Push">
-    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="up" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.RollbackChangedLines">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
