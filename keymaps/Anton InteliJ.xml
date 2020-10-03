@@ -86,6 +86,9 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="b" />
   </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="down" />
+  </action>
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -265,6 +268,7 @@
   <action id="Vcs.Log.Refresh" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="p" />
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="up" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.ShowMessageHistory">
