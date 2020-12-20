@@ -12,6 +12,9 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="alt d" second-keystroke="alt d" />
+  </action>
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateLogcatToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
@@ -51,7 +54,9 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="c" />
   </action>
-  <action id="ChooseDebugConfiguration" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="alt d" second-keystroke="s" />
+  </action>
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="ChooseRunConfiguration" />
   <action id="ClassNameCompletion" />
@@ -67,7 +72,7 @@
   <action id="DatabaseView.CopyTable" />
   <action id="DatabaseView.Refresh" />
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="shift alt f5" />
+    <keyboard-shortcut first-keystroke="alt d" second-keystroke="d" />
   </action>
   <action id="Debugger.EditArrayFilter" />
   <action id="Debugger.EditCustomField" />
@@ -249,6 +254,7 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
+  <action id="SwitchHeaderSource" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl alt space" />
   </action>
@@ -269,6 +275,7 @@
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="z" />
   </action>
+  <action id="TurnOffF10WinShortcut" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
@@ -284,6 +291,9 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="XDebugger.AttachToProcess">
+    <keyboard-shortcut first-keystroke="alt d" second-keystroke="a" />
+  </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MoveWatchUp" />
