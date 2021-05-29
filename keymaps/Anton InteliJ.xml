@@ -79,6 +79,7 @@
   <action id="Debugger.EditCustomField" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="DumpLookupElementWeights" />
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="alt w" second-keystroke="n" />
   </action>
@@ -103,22 +104,22 @@
     <keyboard-shortcut first-keystroke="shift alt j" />
   </action>
   <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="ctrl e" />
+    <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="shift alt o" />
   </action>
   <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="alt u" />
   </action>
   <action id="EditorLineStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="ctrl l" />
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
   <action id="EditorNextWordWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt l" />
   </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="alt period" />
@@ -127,10 +128,10 @@
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
   <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="ctrl j" />
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
   <action id="EditorPreviousWordWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl j" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="alt l" />
@@ -146,6 +147,7 @@
   <action id="EditorUpWithSelection">
     <keyboard-shortcut first-keystroke="shift alt i" />
   </action>
+  <action id="ExportToTextFile" />
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
@@ -176,11 +178,18 @@
   </action>
   <action id="Github.PullRequest.Details.Reload" />
   <action id="Github.PullRequest.Timeline.Update" />
+  <action id="GotoClass" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
   </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="shift f12" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt g" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="alt page_down" />
@@ -188,9 +197,11 @@
   <action id="GotoPreviousError">
     <keyboard-shortcut first-keystroke="alt page_up" />
   </action>
+  <action id="GotoSymbol" />
   <action id="GotoTypeDeclaration">
     <mouse-shortcut keystroke="shift control button1" />
   </action>
+  <action id="GotoUrlAction" />
   <action id="Graph.ApplyCurrentLayout" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="alt w" second-keystroke="a" />
@@ -271,7 +282,6 @@
   </action>
   <action id="RiderUnitTestDotMemoryUnitSolutionAction" />
   <action id="RiderUnitTestQuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift alt u" />
     <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="t" />
   </action>
   <action id="RiderUnitTestRepeatPreviousRunTwAction">
@@ -309,13 +319,18 @@
     <keyboard-shortcut first-keystroke="ctrl alt f4" />
   </action>
   <action id="ScrollTreeToCenter" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" />
+  </action>
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="SelectNextOccurrence" />
+  <action id="SelectVirtualTemplateElement" />
   <action id="ShelvedChanges.Rename" />
   <action id="ShowBookmarks" />
   <action id="ShowContent" />
+  <action id="ShowReformatFileDialog" />
   <action id="ShowSearchHistory" />
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="ctrl f11" />
@@ -329,6 +344,7 @@
   <action id="Stop">
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
+  <action id="SurroundWithLiveTemplate" />
   <action id="SwitchHeaderSource" />
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
