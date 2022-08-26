@@ -13,7 +13,9 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
   <action id="ActivateBookmarksToolWindow" />
-  <action id="ActivateCommitToolWindow" />
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" second-keystroke="c" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="meta 5" />
   </action>
@@ -26,7 +28,9 @@
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
   <action id="ActivateProblemsViewToolWindow" />
-  <action id="ActivateProjectToolWindow" />
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
@@ -63,9 +67,7 @@
     <keyboard-shortcut first-keystroke="meta back_quote" second-keystroke="r" />
   </action>
   <action id="ChangesView.ShelveSilently" />
-  <action id="CheckinProject">
-    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="c" />
-  </action>
+  <action id="CheckinProject" />
   <action id="ChooseDebugConfiguration">
     <keyboard-shortcut first-keystroke="alt d" second-keystroke="s" />
   </action>
@@ -117,9 +119,7 @@
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="meta back_quote" second-keystroke="b" />
   </action>
-  <action id="Git.Commit.Stage">
-    <keyboard-shortcut first-keystroke="meta back_quote" second-keystroke="c" />
-  </action>
+  <action id="Git.Commit.Stage" />
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta back_quote" second-keystroke="down" />
   </action>
@@ -276,6 +276,7 @@
   <action id="ShowBookmarks" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
+  <action id="ShowSettings" />
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
@@ -314,17 +315,19 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Log.Refresh" />
+  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="meta back_quote" second-keystroke="up" />
   </action>
   <action id="Vcs.QuickListPopupAction" />
-  <action id="Vcs.RollbackChangedLines">
-    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="r" />
-  </action>
+  <action id="Vcs.RollbackChangedLines" />
   <action id="Vcs.ShowMessageHistory">
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Vcs.UpdateProject" />
+  <action id="VcsHistory.ShowAllAffected" />
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="XDebugger.AttachToProcess">
     <keyboard-shortcut first-keystroke="alt d" second-keystroke="a" />
   </action>
