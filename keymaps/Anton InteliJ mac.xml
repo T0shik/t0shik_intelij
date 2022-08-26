@@ -75,10 +75,10 @@
   <action id="ChooseRunConfiguration" />
   <action id="ClassNameCompletion" />
   <action id="CloseAllEditors">
-    <keyboard-shortcut first-keystroke="alt w" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="meta w" second-keystroke="w" />
   </action>
   <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="alt w" second-keystroke="o" />
+    <keyboard-shortcut first-keystroke="meta w" second-keystroke="o" />
   </action>
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
@@ -146,10 +146,10 @@
   </action>
   <action id="Graph.ApplyCurrentLayout" />
   <action id="HideAllWindows">
-    <keyboard-shortcut first-keystroke="alt w" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="meta w" second-keystroke="a" />
   </action>
   <action id="HideSideWindows">
-    <keyboard-shortcut first-keystroke="alt w" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="meta w" second-keystroke="s" />
   </action>
   <action id="Images.EditExternally" />
   <action id="Jdbc.RunSqlScript" />
