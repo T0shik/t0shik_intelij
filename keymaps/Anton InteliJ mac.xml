@@ -72,7 +72,9 @@
     <keyboard-shortcut first-keystroke="alt d" second-keystroke="s" />
   </action>
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
-  <action id="ChooseRunConfiguration" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
+  </action>
   <action id="ClassNameCompletion" />
   <action id="CloseAllEditors">
     <keyboard-shortcut first-keystroke="alt w" second-keystroke="w" />
@@ -255,9 +257,7 @@
   <action id="RiderUnitTestSessionRerunFailedTestsTwAction">
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
-  </action>
+  <action id="Run" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
