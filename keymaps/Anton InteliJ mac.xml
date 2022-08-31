@@ -275,6 +275,9 @@
   <action id="ShelvedChanges.Rename" />
   <action id="ShowBookmarks" />
   <action id="ShowContent" />
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="ShowSearchHistory" />
   <action id="ShowSettings" />
   <action id="SmartStepInto">
