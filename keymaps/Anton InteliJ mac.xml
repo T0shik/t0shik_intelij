@@ -45,10 +45,10 @@
     <keyboard-shortcut first-keystroke="ctrl 2" />
   </action>
   <action id="ActivateUnitTestsCoverageToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="c" />
   </action>
   <action id="ActivateUnitTestsToolWindow">
-    <keyboard-shortcut first-keystroke="ctrl t" second-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="meta t" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="meta back_quote" second-keystroke="m" />
@@ -374,6 +374,9 @@
   <action id="RiderUnitTestDebugContextAction">
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="d" />
   </action>
+  <action id="RiderUnitTestDebugContextTwAction">
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="d" />
+  </action>
   <action id="RiderUnitTestDotMemoryUnitContextAction" />
   <action id="RiderUnitTestDotMemoryUnitSolutionAction" />
   <action id="RiderUnitTestNewSessionAction" />
@@ -388,7 +391,7 @@
     <keyboard-shortcut first-keystroke="meta t" second-keystroke="r" />
   </action>
   <action id="RiderUnitTestRunContextTwAction">
-    <keyboard-shortcut first-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="meta t" second-keystroke="r" />
   </action>
   <action id="RiderUnitTestRunContextUntilFailAction" />
   <action id="RiderUnitTestRunCurrentSessionAction" />
