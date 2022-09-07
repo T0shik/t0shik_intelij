@@ -142,24 +142,8 @@
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
-  <action id="EditorDown">
-    <keyboard-shortcut first-keystroke="meta semicolon" />
-    <keyboard-shortcut first-keystroke="down" />
-  </action>
-  <action id="EditorDownWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta semicolon" />
-    <keyboard-shortcut first-keystroke="shift down" />
-  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="meta d" />
-  </action>
-  <action id="EditorLeft">
-    <keyboard-shortcut first-keystroke="meta l" />
-    <keyboard-shortcut first-keystroke="left" />
-  </action>
-  <action id="EditorLeftWithSelection">
-    <keyboard-shortcut first-keystroke="shift left" />
-    <keyboard-shortcut first-keystroke="shift meta l" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
@@ -197,12 +181,6 @@
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl meta l" />
   </action>
-  <action id="EditorRight">
-    <keyboard-shortcut first-keystroke="meta quote" />
-  </action>
-  <action id="EditorRightWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta quote" />
-  </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
@@ -216,12 +194,6 @@
   <action id="EditorTextStartWithSelection" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta w" />
-  </action>
-  <action id="EditorUp">
-    <keyboard-shortcut first-keystroke="meta p" />
-  </action>
-  <action id="EditorUpWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
   <action id="EmmetNextEditPoint" />
   <action id="EmmetPreviousEditPoint" />
