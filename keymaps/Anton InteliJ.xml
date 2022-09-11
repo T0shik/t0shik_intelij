@@ -5,6 +5,10 @@
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
     <keyboard-shortcut first-keystroke="shift ctrl z" />
@@ -84,6 +88,9 @@
   <action id="Diff.ApplyRightSide" />
   <action id="EditSourceInNewWindow">
     <keyboard-shortcut first-keystroke="alt w" second-keystroke="n" />
+  </action>
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="ctrl y" />
