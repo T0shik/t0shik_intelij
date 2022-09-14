@@ -68,6 +68,7 @@
   <action id="BuildSolutionAction">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
+  <action id="CIDR.Debugger.ShowInMemoryView" />
   <action id="ChangesView.AddUnversioned">
     <keyboard-shortcut first-keystroke="ctrl back_quote" second-keystroke="a" />
   </action>
@@ -89,6 +90,8 @@
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.NavigateExportedAction" />
   <action id="Console.TableResult.Reload" />
@@ -109,6 +112,9 @@
   <action id="Debugger.EditCustomField" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Docker.RemoteServers.StartComposeService" />
+  <action id="Docker.RemoteServers.StartContainer" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditSourceInNewWindow">
@@ -201,6 +207,7 @@
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="EditorShowGutterIconTooltip" />
+  <action id="EditorSplitLine" />
   <action id="EditorTextEnd" />
   <action id="EditorTextEndWithSelection" />
   <action id="EditorTextStart" />
@@ -270,7 +277,7 @@
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="GotoPreviousError">
-    <keyboard-shortcut first-keystroke="meta q" />
+    <keyboard-shortcut first-keystroke="shift meta e" />
   </action>
   <action id="GotoSymbol" />
   <action id="GotoTypeDeclaration">
@@ -346,14 +353,15 @@
   </action>
   <action id="QuickChangeScheme" />
   <action id="ReSharperGotoNextErrorInSolution">
-    <keyboard-shortcut first-keystroke="shift alt page_down" />
+    <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="ReSharperGotoPrevErrorInSolution">
-    <keyboard-shortcut first-keystroke="shift alt page_up" />
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="RebuildGradleProject">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
+  <action id="RecentFiles" />
   <action id="RecentLocations" />
   <action id="Refactorings.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -377,9 +385,6 @@
   <action id="RestoreDefaultLayout" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f5" />
-  </action>
-  <action id="RevealIn">
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
   </action>
   <action id="RiderOpenSolution">
     <keyboard-shortcut first-keystroke="shift meta o" />
@@ -451,7 +456,7 @@
   <action id="ShowBookmarks" />
   <action id="ShowContent" />
   <action id="ShowIntentionActions">
-    <keyboard-shortcut first-keystroke="meta enter" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="ShowReformatFileDialog" />
   <action id="ShowSearchHistory" />
@@ -463,6 +468,7 @@
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="ctrl f11" />
   </action>
+  <action id="SplitChooser.Duplicate" />
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
@@ -473,6 +479,8 @@
     <keyboard-shortcut first-keystroke="shift f5" />
   </action>
   <action id="SwitchHeaderSource" />
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Terminal.ClearBuffer">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
@@ -480,7 +488,7 @@
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
   <action id="Terminal.OpenInTerminal">
-    <keyboard-shortcut first-keystroke="shift meta space" />
+    <keyboard-shortcut first-keystroke="ctrl meta space" />
   </action>
   <action id="Terminal.Paste">
     <keyboard-shortcut first-keystroke="meta v" />
@@ -488,6 +496,7 @@
   <action id="Terminal.SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="TextSearchAction" />
   <action id="ToggleBookmark" />
   <action id="ToggleBookmarkWithMnemonic" />
@@ -520,14 +529,13 @@
   </action>
   <action id="Vcs.QuickListPopupAction" />
   <action id="Vcs.RollbackChangedLines" />
-  <action id="Vcs.ShowMessageHistory">
-    <keyboard-shortcut first-keystroke="ctrl e" />
-  </action>
+  <action id="Vcs.ShowMessageHistory" />
   <action id="Vcs.ToggleAmendCommitMode" />
   <action id="Vcs.UpdateProject" />
   <action id="VcsHistory.ShowAllAffected" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
+  <action id="ViewSource" />
   <action id="XDebugger.AttachToProcess">
     <keyboard-shortcut first-keystroke="alt d" second-keystroke="a" />
   </action>
