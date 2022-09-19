@@ -94,6 +94,7 @@
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.NavigateExportedAction" />
+  <action id="Console.TableResult.NavigateForeignAction" />
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
@@ -272,7 +273,9 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
   </action>
-  <action id="GotoImplementation" />
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="shift f12" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
