@@ -94,6 +94,7 @@
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.DeleteRows" />
   <action id="Console.TableResult.NavigateExportedAction" />
+  <action id="Console.TableResult.NavigateForeignAction" />
   <action id="Console.TableResult.Reload" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
