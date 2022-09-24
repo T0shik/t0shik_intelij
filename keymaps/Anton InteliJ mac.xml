@@ -86,6 +86,15 @@
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
   </action>
   <action id="ClassNameCompletion" />
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="a" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="o" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" second-keystroke="t" />
+  </action>
   <action id="CommentByBlockComment" />
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="meta slash" />
@@ -333,7 +342,7 @@
   </action>
   <action id="NextEditorTab" />
   <action id="NextProjectWindow">
-    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
   <action id="NextSplitter">
     <keyboard-shortcut first-keystroke="shift alt right" />
@@ -358,7 +367,7 @@
   </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousProjectWindow">
-    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
@@ -532,6 +541,7 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Unwrap" />
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.WriteAccess" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.Log.GoToChild" />
   <action id="Vcs.Log.Refresh" />
