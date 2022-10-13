@@ -179,28 +179,22 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorLineEnd">
-    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="meta right" />
   </action>
   <action id="EditorLineEndWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="shift meta right" />
   </action>
   <action id="EditorLineStart">
-    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="meta left" />
   </action>
   <action id="EditorLineStartWithSelection">
-    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
   <action id="EditorMatchBrace" />
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorMoveToPageTopWithSelection" />
-  <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="meta right" />
-  </action>
-  <action id="EditorNextWordWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta right" />
-  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
@@ -211,12 +205,6 @@
   <action id="EditorPageUpWithSelection" />
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift meta v" />
-  </action>
-  <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="meta left" />
-  </action>
-  <action id="EditorPreviousWordWithSelection">
-    <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
