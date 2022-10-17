@@ -122,6 +122,8 @@
   <action id="Debugger.EditCustomField" />
   <action id="Diff.ApplyLeftSide" />
   <action id="Diff.ApplyRightSide" />
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Docker.RemoteServers.StartComposeService" />
   <action id="Docker.RemoteServers.StartContainer" />
@@ -195,6 +197,12 @@
   <action id="EditorMoveToPageBottomWithSelection" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorMoveToPageTopWithSelection" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
@@ -205,6 +213,12 @@
   <action id="EditorPageUpWithSelection" />
   <action id="EditorPasteSimple">
     <keyboard-shortcut first-keystroke="shift meta v" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
@@ -335,9 +349,6 @@
   <action id="NextProjectWindow">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
   </action>
-  <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="shift alt right" />
-  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
@@ -352,9 +363,6 @@
   <action id="ParameterInfo.GoToPreviousSignature" />
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl meta v" />
-  </action>
-  <action id="PrevSplitter">
-    <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
   <action id="PreviousEditorTab" />
   <action id="PreviousProjectWindow">
@@ -499,12 +507,14 @@
   <action id="Terminal.CopySelectedText">
     <keyboard-shortcut first-keystroke="meta c" />
   </action>
+  <action id="Terminal.NextSplitter" />
   <action id="Terminal.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl meta space" />
   </action>
   <action id="Terminal.Paste">
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="Terminal.PrevSplitter" />
   <action id="Terminal.SelectAll">
     <keyboard-shortcut first-keystroke="meta a" />
   </action>
