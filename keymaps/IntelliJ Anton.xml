@@ -28,11 +28,20 @@
   <action id="Arrangement.Rule.Add">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="Arrangement.Rule.Edit" />
+  <action id="BookmarksView.Rename" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="r" />
   </action>
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
+  </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="DatabaseView.OpenFamilyAction">
     <keyboard-shortcut first-keystroke="f4" />
@@ -75,6 +84,12 @@
   </action>
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="p" />
+  </action>
+  <action id="Git.Rename.Local.Branch">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="meta n" />
@@ -142,6 +157,9 @@
   <action id="RemoteHostView.EditSource">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="RestoreDefaultLayout" />
   <action id="RiderNuGetQuickDocAction">
     <keyboard-shortcut first-keystroke="f1" />
@@ -163,6 +181,9 @@
   <action id="ServiceView.AddService">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
@@ -171,7 +192,9 @@
   </action>
   <action id="SwitcherIterateItems" />
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
+  <action id="Table-startEditing" />
   <action id="Terminal.NewTab" />
+  <action id="Tree-startEditing" />
   <action id="Uml.NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -193,4 +216,6 @@
   <action id="Vcs.UpdateProject" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
 </keymap>
