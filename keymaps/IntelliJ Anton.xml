@@ -30,6 +30,7 @@
   </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="BookmarksView.Rename" />
+  <action id="CIDR.Debugger.ShowInMemoryView" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -39,6 +40,8 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
   </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -46,6 +49,9 @@
   <action id="DatabaseView.OpenFamilyAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="Docker.RemoteServers.StartComposeService" />
+  <action id="Docker.RemoteServers.StartContainer" />
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="f4" />
@@ -53,6 +59,7 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
@@ -184,9 +191,13 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
   </action>
+  <action id="SplitChooser.Duplicate" />
   <action id="Sql.EditParameter">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -194,6 +205,7 @@
   <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="Table-startEditing" />
   <action id="Terminal.NewTab" />
+  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Tree-startEditing" />
   <action id="Uml.NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -216,6 +228,7 @@
   <action id="Vcs.UpdateProject" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
+  <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
 </keymap>
