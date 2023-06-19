@@ -49,6 +49,7 @@
   <action id="DatabaseView.OpenFamilyAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="DatabaseView.PropertiesAction" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="Docker.RemoteServers.StartComposeService" />
   <action id="Docker.RemoteServers.StartContainer" />
@@ -60,6 +61,9 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="EditorToggleInsertState">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta down" />
   </action>
@@ -173,6 +177,7 @@
     <keyboard-shortcut first-keystroke="f1" />
     <mouse-shortcut keystroke="control button2" />
   </action>
+  <action id="RiderNuGetToggleInfoExpanderAction" />
   <action id="RiderUnitTestNewSessionTwAction" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -235,4 +240,5 @@
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
+  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
 </keymap>
