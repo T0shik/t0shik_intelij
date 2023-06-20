@@ -40,12 +40,15 @@
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
   </action>
+  <action id="CommentByBlockComment" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="Console.TableResult.SetDefault" />
+  <action id="ContextHelp" />
   <action id="DatabaseView.OpenFamilyAction">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
@@ -197,6 +200,7 @@
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="ShowErrorDescription" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
