@@ -41,7 +41,6 @@
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
   </action>
   <action id="CommentByBlockComment" />
-  <action id="Console.Execute.Multiline" />
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
