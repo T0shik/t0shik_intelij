@@ -73,6 +73,9 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorSplitLine" />
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="meta m" />
+  </action>
   <action id="EditorToggleInsertState">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
@@ -163,6 +166,7 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="JumpToLastWindow" />
+  <action id="MinimizeCurrentWindow" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta down" />
   </action>
