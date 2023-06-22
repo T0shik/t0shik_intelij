@@ -30,7 +30,9 @@
   </action>
   <action id="Arrangement.Rule.Edit" />
   <action id="BookmarksView.Rename" />
+  <action id="BuildSolutionAction" />
   <action id="CIDR.Debugger.ShowInMemoryView" />
+  <action id="CancelBuildAction" />
   <action id="ChangesView.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -51,6 +53,7 @@
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
   <action id="CommentByBlockComment" />
+  <action id="CompileDirty" />
   <action id="Console.SplitLine" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
@@ -107,6 +110,8 @@
   <action id="FileChooserList.LevelUp" />
   <action id="FindNext" />
   <action id="FindPrevious" />
+  <action id="ForceRunToCursor" />
+  <action id="ForceStepOver" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -211,11 +216,17 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="RestoreDefaultLayout" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="meta alt r" />
+  </action>
   <action id="RiderNuGetQuickDocAction">
     <keyboard-shortcut first-keystroke="f1" />
     <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="RiderNuGetToggleInfoExpanderAction" />
+  <action id="RiderRemoveAllLineBreakpoints">
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
   <action id="RiderUnitTestNewSessionTwAction" />
   <action id="SearchEverywhere.NavigateToNextGroup">
     <keyboard-shortcut first-keystroke="page_down" />
@@ -255,6 +266,10 @@
     <keyboard-shortcut first-keystroke="ctrl meta space" />
   </action>
   <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint" />
   <action id="Tree-startEditing" />
   <action id="Uml.NewElement">
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -277,6 +292,7 @@
   <action id="Vcs.UpdateProject" />
   <action id="VcsShowNextChangeMarker" />
   <action id="VcsShowPrevChangeMarker" />
+  <action id="ViewBreakpoints" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.SetValue" />
