@@ -39,9 +39,11 @@
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="r" />
   </action>
+  <action id="ChangesView.SetDefault" />
   <action id="CheckinProject">
     <keyboard-shortcut first-keystroke="meta g" second-keystroke="c" />
   </action>
+  <action id="CodeCompletion" />
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="meta subtract" />
   </action>
@@ -203,6 +205,9 @@
   </action>
   <action id="ReSharperGotoNextErrorInSolution">
     <keyboard-shortcut first-keystroke="shift meta e" />
+  </action>
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="RecentFiles" />
   <action id="RecentLocations" />
